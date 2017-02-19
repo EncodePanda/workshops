@@ -7,6 +7,7 @@ Regardless whether you do Big Data right now or not, with exponential growth of 
 
 # CONCEPTS & SKILLS
 Among the many concepts that attendees will learn are:
+
 Big Data, Map-Reduce, Partitioning, HA & resilience in cluster environment, HDFS
 Apache Spark architecture (logical & physical),
 Driver program, Master node, Worker node, Executor,
@@ -23,13 +24,13 @@ Streaming, DStream, Strucutred Streaming, Back pressure & Elastic Scaling
 
 # COURSE OUTLINE
 1. Introduction
-1.1 What is Apache Spark?
-1.2 What was before?
-1.3 Challenges, proble & issues with MapReduce
-1.4 The Big Picture
+   1.1 What is Apache Spark?
+   1.2 What was before?
+   1.3 Challenges, proble & issues with MapReduce
+   1.4 The Big Picture
 2. Spark Core
-2.1 RDD
-2.2 Transforamtions vs Actions
+   2.1 RDD
+   2.2 Transforamtions vs Actions
 2.3 Partitions & Tasks
 2.4 RDDs for key-value
 2.5 Pipelining & Shuffeling
