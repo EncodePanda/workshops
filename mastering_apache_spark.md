@@ -1,4 +1,6 @@
 # INTRODUCTION
+
+**Duration:** 2-3 days
 "Mastering Apache Spark" is an extended workshop designed to familiarize attendees with Apache Spark - a well-known engine for fast Big Data processing. "From zero to hero" means that attende does not need to have prior knowledge of how Apache Spark works, but after two days workshop will be able to spin efficient, robust jobs running on Spark cluster from day one. He or she will not only gain general understanding of what Apache Spark is, what are its modules and how they work. Attendee will get detailed, in-depth insight of Apache Spark internals. This makes this workshop globally unique it prepares its graduates not only to start working with the framework, but also makes them right candidates to tackle any problems that might occur on production - A true heros that each distributed project needs.
 
 # RELEVANCY
@@ -9,28 +11,16 @@ Regardless whether you do Big Data right now or not, with exponential growth of 
 Among the many concepts that attendees will learn are:
 
 Big Data, Map-Reduce, Partitioning, HA & resilience in cluster environment, HDFS
-
 Apache Spark architecture (logical & physical),
-
 Driver program, Master node, Worker node, Executor,
-
 RDD (Resilient Distributed Dataset), Transformations & Actions, Partitions, Tasks,
-
 Pipelining, Shuffeling, DAG (Directed Acyclic Graph), data locality,
-
 Spark Execution Model, Partitoner,
-
 Caching, Checkpointing, Broadcast, Accumulators,
-
 Spark Memory Model,
-
 DataFrames, Datasets, Working with semi-structured & strucutred data (json, parquet, avro),
-
 Spark Catalyst optimizer, predicate push down,
-
-Project Tungsten,
-
-Streaming, DStream, Strucutred Streaming, Back pressure & Elastic Scaling
+Project Tungsten, Streaming, DStream, Strucutred Streaming, Back pressure & Elastic Scaling
 
 # COURSE OUTLINE
 1. Introduction
@@ -98,6 +88,6 @@ Streaming, DStream, Strucutred Streaming, Back pressure & Elastic Scaling
    * Q&A
 
 # INSTRUCTOR BIO
-Pawel Szulc has more then 10 years of profesional experience as software engineer during which he worked for numerous number of projects for veriety of clients.
-He often call him self a veteran of early Apache Spark adoptions, as his first big data project based on Spark dates back to 2014. Back then Spark (version 0.9) was still under heavy development. Every problem encountered requried reading Spark's codebase - googling the question was pointless. That being a pain then, prove to be a great asset after a while. Experience gathered was invaluable, allowing him to challange other Spark-based projects he worked on ever since. The knowledge he is now happy to share with you!
+Pawel Szulc has more then 10 years of profesional experience as software engineer - during which he worked on numerous number of projects for veriety of clients.
+He often call him self a veteran of early Apache Spark adoptions - his first big data project (based on Apache Spark) dates back to 2014. Back then Spark (version 0.9) was still under heavy development, where every problem encountered requried reading Spark's codebase - googling the question was pointless. That being a pain then, prove to be a great asset after a while. Experience gathered was invaluable, allowing Pawel to challange other Spark-based projects he worked on ever since. The knowledge he is now happy to share with you!
 Recently he was hired to write Apache Spark connector between HDFS & SlamData's Quasar project.
