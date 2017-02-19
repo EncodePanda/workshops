@@ -9,95 +9,93 @@ Regardless whether you do Big Data right now or not, with exponential growth of 
 Among the many concepts that attendees will learn are:
 
 Big Data, Map-Reduce, Partitioning, HA & resilience in cluster environment, HDFS
+
 Apache Spark architecture (logical & physical),
+
 Driver program, Master node, Worker node, Executor,
+
 RDD (Resilient Distributed Dataset), Transformations & Actions, Partitions, Tasks,
+
 Pipelining, Shuffeling, DAG (Directed Acyclic Graph), data locality,
+
 Spark Execution Model, Partitoner,
+
 Caching, Checkpointing, Broadcast, Accumulators,
+
 Spark Memory Model,
-DataFrames, Datasets,
-Working with semi-structured & strucutred data (json, parquet, avro),
+
+DataFrames, Datasets, Working with semi-structured & strucutred data (json, parquet, avro),
+
 Spark Catalyst optimizer, predicate push down,
+
 Project Tungsten,
+
 Streaming, DStream, Strucutred Streaming, Back pressure & Elastic Scaling
 
 # COURSE OUTLINE
 1. Introduction
-   1.1 What is Apache Spark?
-   1.2 What was before?
-   1.3 Challenges, proble & issues with MapReduce
-   1.4 The Big Picture
+   * What is Apache Spark?
+   * What was before?
+   * Challenges, proble & issues with MapReduce
+   * The Big Picture
 2. Spark Core
-   2.1 RDD
-   2.2 Transforamtions vs Actions
-2.3 Partitions & Tasks
-2.4 RDDs for key-value
-2.5 Pipelining & Shuffeling
-2.6 DAG & Stages
-2.7 Resilience
-2.8 Performance issues and how to handle them
-2.8.1 Common pitfals (groupBy)
-2.8.2 Deepr knowledge of how cluster works
-2.8.3 Classpath & Serialization issues
-2.8.4 Spark configuration
-2.8.5 Spark UI & Spark history server
-2.9. Caching & Checkpointing
-2.10. Broadcasts & Accumulators
-2.11. Joins
+   * RDD
+   * Transforamtions vs Actions
+   * Partitions & Tasks
+   * RDDs for key-value
+   * Pipelining & Shuffeling
+   * DAG & Stages
+   * Resilience
+   * Performance issues and how to handle them
+        1. Common pitfals (groupBy)
+        2. Deepr knowledge of how cluster works
+        3. Classpath & Serialization issues
+        4. Spark configuration
+        5. Spark UI & Spark history server
+   * Caching & Checkpointing
+   * Broadcasts & Accumulators
+   * Joins
 3. Spark Core - internals
-3.1 The 5 things definig RDD
-3.1.1 Parent dependency
-3.1.2 Data partitioning
-3.1.3 Internal data evaluation
-3.1.4 Partitioner
-3.1.5 Data locality
-3.2 Shuffeling algorithms
-3.2.1 Hash
-3.2.2 Sort
-3.2.3 Unsafe & Tungsten Sort
-3.3 Spark Memory Model
+   * The 5 things definig RDD
+   * Shuffeling algorithms
+   * Spark Memory Model
 4. Spark SQL
-4.1 Adventages of semi-structured data
-4.2 SQL
-4.2.1 Introduction
-4.2.2 Joins
-4.2.3 Hive
-4.3 Dataframes
-4.3.1 Introduction
-4.3.2 Joins
-4.3.3 JSON
-4.3.4 Parquet
-4.3.5 Avro
-4.4 DataSets
-4.4.1 Problems with Dataframes
-4.4.2 Dataset to the rescue!
-4.4 What makes Spark SQL run faster
-4.4.1 Structure vs Expression
-4.4.2 Catalyst Optimizer
-4.4.3 Predicate Push Down
-4.4.4 Project Tungsten
+   * Adventages of semi-structured data
+   * SQL
+       * Introduction
+       * Joins
+       * Hive
+   * Dataframes
+       * Introduction
+       * Joins
+       * JSON
+       * Parquet
+       * Avro
+   * DataSets
+       * Problems with Dataframes
+       * Dataset to the rescue!
+   * What makes Spark SQL run faster
+       * Structure vs Expression
+       * Catalyst Optimizer
+       * Predicate Push Down
+       * Project Tungsten
 5. Spark SQL - internals
-5.1 How Dataframes & Datasets are implemented
-5.2 How Catalyst Optimzer works?
+   * How Dataframes & Datasets are implemented
+   * How Catalyst Optimzer works?
 6. Spark Streaming
-6.1 Why Streaming?
-6.2 General overview
-6.3 Reciever - long running task
-6.4 Resilence
-6.5 Transforamtions
-6.5.1 Stateless
-6.5.2 Stateful
-6.5.2.1 Window duration
-6.5.2.2 Sliding duration
-6.5.2.3 .reduceByWindow
-6.5.2.4 .updateStateByKey vs .mapWithState
-6.6 Ultimate Apache Kafka Example
-6.4 Structured Streaming
+   * Why Streaming?
+   * General overview
+   * Reciever - long running task
+   * Resilence
+   * Transforamtions
+       * Stateless
+       * Stateful (Window & Sliding duration, .reduceByWindow, .updateStateByKey vs .mapWithState)
+   * Ultimate Apache Kafka Example
+   * Structured Streaming
 7. Other topics
-7.1 Back pressure & Elastic Scaling
-7.2 Running Spark on Mesos
-7.3 Q&A
+   * Back pressure & Elastic Scaling
+   * Running Spark on Mesos
+   * Q&A
 
 # INSTRUCTOR BIO
 Pawel Szulc has more then 10 years of profesional experience as software engineer during which he worked for numerous number of projects for veriety of clients.
