@@ -1,6 +1,6 @@
 # MASTERING APACHE SPARK
 
-**Duration:** 2-3 days 
+**Duration:** 3 days 
 
 **Cost**: Please [contact](mailto:te...@mail.com) for pricing
 
