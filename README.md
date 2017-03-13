@@ -5,4 +5,4 @@
 * Apache Kafka
 * Scala - programming language
 * Testing in Scala
-* Advanced Functional Programming in Scala
+* [Tackle Advanced Functional Programming in Scala](tackle_advanced_functional_programming.md)
