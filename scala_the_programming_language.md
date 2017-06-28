@@ -71,4 +71,4 @@ TBD
    * Questions and answers
 
 ## INSTRUCTOR BIO
-Pawel Szulc has more then 10 years of profesional experience as software engineer - during which he worked on numerous number of projects for veriety of clients. He has 11 years oprofesional experience working on JVM based projects. Last 4 years his main focus was Scala and Functional Programming paradigm.
+Pawel Szulc has more then 10 years of profesional experience as software engineer - during which he worked on numerous number of JVM projects for veriety of clients. Last 4 years his main focus was Scala and Functional Programming paradigm.
