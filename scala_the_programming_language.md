@@ -71,6 +71,4 @@ TBD
    * Questions and answers
 
 ## INSTRUCTOR BIO
-Pawel Szulc has more then 10 years of profesional experience as software engineer - during which he worked on numerous number of projects for veriety of clients.
-He often call him self a veteran of early Apache Spark adoptions - his first big data project (based on Apache Spark) dates back to 2014. Back then Spark (version 0.9) was still under heavy development, where every problem encountered requried reading Spark's codebase - googling the question was pointless. That being a pain then, prove to be a great asset after a while. Experience gathered was invaluable, allowing Pawel to challange other Spark-based projects he worked on ever since. The knowledge he is now happy to share with you!
-Recently he was hired to write Apache Spark connector between HDFS & SlamData's Quasar project.
+Pawel Szulc has more then 10 years of profesional experience as software engineer - during which he worked on numerous number of projects for veriety of clients. He has 11 years oprofesional experience working on JVM based projects. Last 4 years his main focus was Scala and Functional Programming paradigm.
